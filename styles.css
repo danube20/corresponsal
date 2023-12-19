@@ -113,3 +113,65 @@ html {
 #result {
   font-weight: 600;
 }
+
+@media (max-width: 768px) {
+  .container>h1 {
+    font-size: 2rem;
+  }
+
+  .bank-options a {
+    width: 60%;
+  }
+
+  .bank-options img {
+    width: 60%;
+  }
+
+  .money {
+    flex-direction: column;
+  }
+
+  .money label {
+    width: 100%;
+    text-align: start;
+    margin-bottom: 0.5rem;
+  }
+
+  .calculator {
+    margin-bottom: 4rem;
+  }
+
+  .logic,
+  .calculator {
+    flex-direction: column;
+  }
+
+  .logic {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container>h1 {
+    font-size: 1.5rem;
+  }
+
+  .bank-options a,
+  .bank-options img {
+    width: 100%;
+  }
+
+  .btn {
+    padding: 8px 10px;
+    font-size: 14px;
+  }
+
+  .logic a {
+    font-size: 12px;
+  }
+
+  .logic h3 {
+    font-size: 20px;
+  }
+}
